@@ -1,0 +1,10 @@
+#Bai_1
+## git init: Đưa các file đã thay đổi vào vùng WWorking Directory (chính thức do git quản lí)
+## git add <file_name> : Add 1 file cụ thể vào vùng staging trước khi commit lên respo
+## git add .: add tất cả các file đang có vào vùng staging trước khi commit lên respo
+## git commit -m "message": commit tất cả các file đã push vào respo với "message" là phiên bản của file
+
+#Bai_2
+Working Directory: file2, file3
+Staging Area: no file
+Repository: file1 with version "add file1"

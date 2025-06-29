@@ -1,0 +1,43 @@
+1. Cấu trúc cơ bản của 1 DOM gồm có các thẻ:
+- html 
+    - head 
+        - title
+        - link ...
+    - body
+        - h1 / a / p ...
+        - script / footer
+
+2. Cấu trúc html của 1 bảng gồm có:
+
+<table>
+  <thead>
+    <tr>
+      <th>Tiêu đề 1</th>
+      <th>Tiêu đề 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dữ liệu 1.1</td>
+      <td>Dữ liệu 1.2</td>
+    </tr>
+    <tr>
+      <td>Dữ liệu 2.1</td>
+      <td>Dữ liệu 2.2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Chân bảng</td>
+    </tr>
+  </tfoot>
+</table>
+
+chú thích:
+<table>: cover toàn bộ bảng
+<thead>: tiêu đề của bảng
+<tbody>: thân của bảng chứ các dữ liệu
+<tfoot>: phần kết của bảng để chứa các tổng kết ghi chú
+<tr>: table row - đại diện cho 1 hàng trong bảng
+<th>: table header - đại diện cho tiêu đề
+<td>: table data - đại diện cho ô dữ liệu thông thường
